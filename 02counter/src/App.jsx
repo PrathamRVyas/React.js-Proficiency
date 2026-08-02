@@ -11,6 +11,7 @@ function App() {
       // console.log(counter)
       if(counter < 20){
         setCounter(counter + 1)
+        setCounter(prevCounter => prevCounter + 1) //For multiple updations (interview)
       }
   }
 
